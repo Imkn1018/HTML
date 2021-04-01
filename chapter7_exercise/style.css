@@ -1,0 +1,21 @@
+header {
+  height: 400px;
+
+  background-image: url(img/mv.jpg);
+}
+
+.title {
+  color: gray;
+  padding: 20px 0 0 20px;
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 840px;
+}
+.container {
+  margin-top: 30px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+}
