@@ -4,11 +4,32 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   margin: 0 auto;
   padding: 15pz 0;
   text-align: center;
+  position: relative;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+  
+}
+
+.social {
+  position: absolute; /* .headerの左上を基準に絶対位置で指定する */
+  top: 22px; /* .headerの左上から22px下側へ移動する */
+  right: 22px; 
 }
 
 header .heading {
