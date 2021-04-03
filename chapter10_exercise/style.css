@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff9a4b;
+  height: 50px;
+  width: 100%;
+}
+
+main {
+  margin: 50px auto;
+  width: 960px;
+  display: flex;
+  height: 320px;
+}
+
+.step {
+  background-color: #eeeeee;
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+}
+
+.step:last-child {
+  margin-right: 0;
+}
+
+.step-title {
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.step-img1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+.step-img2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+.step-img3 {
+  height: 150px;
+  
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.introduce-title {
+  font-weight: normal;
+  margin: 15px 0 5px;
+}
+.introduce-text{
+  color:gray;
+  font-weight: normal;
+}
+footer {
+  background-color: #aaaaaa;
+  height: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  main {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin:50px auto;
+    
+  }
+  .step {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 90%;
+    height: auto;
+  }
+  .step:nth-child(3) {
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+  .step-img1 {
+    height: 150px;
+
+  }
+  .step-img2 {
+    height: 150px;
+  }
+  .step-img3 {
+    height: 150px;
+  }
+  footer {
+    width: 100%;
+  }
+}
